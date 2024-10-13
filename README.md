@@ -1,8 +1,8 @@
-# End-to-end-Medical-Chatbot-Generative-AI
+# Medical Chatbot using LLM & Gale Encyclopedia of Medicine
 
 Built a medical chatbot using The GALE ENCYCLOPEDIA of MEDICINE, allowing users to ask questions about diseases and receive precise, informative responses. This chatbot functions as a valuable resource for those seeking medical knowledge, offering an interactive, conversational experience similar to ChatGPT. It leverages advanced technologies, including the LangChain framework for language model management, Hugging Face's sentence transformers model for 384-dimensional embeddings, Pinecone as a vector database, OpenAI's GPT for natural language understanding, and a user-friendly interface developed with Flask.
 
-![Example Image](images/chat_bot_UI.PNG)
+![Alt text](images/chat_bot_UI.PNG)
 
 ## How to run?
 ### STEPS:
