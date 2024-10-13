@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from src.prompt import (
     system_prompt, 
     contextualize_q_system_prompt, 
-    contextualize_q_system_prompt)
+    qa_system_prompt)
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain, create_history_aware_retriever
 from langchain_core.messages import HumanMessage, SystemMessage
