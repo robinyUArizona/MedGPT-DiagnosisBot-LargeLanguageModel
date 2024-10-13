@@ -3,14 +3,15 @@ from src.logger import logging
 from src.helper import download_hugging_face_embeddings
 from langchain_pinecone import PineconeVectorStore
 from dotenv import load_dotenv
-from langchain_openai import OpenAI
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_openai import OpenAI, ChatOpenAI
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from src.prompt import (
     system_prompt, 
     contextualize_q_system_prompt, 
     contextualize_q_system_prompt)
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain.chains import create_retrieval_chain
+from langchain.chains import create_retrieval_chain, create_history_aware_retriever
+from langchain_core.messages import HumanMessage, SystemMessage
 
 # Initialize Flask
 app = Flask(__name__)
