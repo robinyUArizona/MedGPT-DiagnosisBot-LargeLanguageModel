@@ -52,11 +52,11 @@ open up localhost:
 
 ### Techstack Used:
 
-- Python
-- LangChain
-- Flask
-- GPT
-- Pinecone
+- LLM Framework: LangChain
+- Embeddings Models: Hugging Face Embeddings - sentence transfomers model `384` dimensional 
+- Vector Database: Pinecone
+- LLM: OpenAI, GPT
+- UI: Flask
 
 
 # AWS-CICD-Deployment-with-Github-Actions
