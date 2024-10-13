@@ -12,7 +12,6 @@ system_prompt = (
     "{context}"
 )
 
-
 # Contextualize question prompt
 # This system prompt helps the AI understand that it should reformulate the question
 # based on the chat history to make it a standalone question
@@ -23,7 +22,6 @@ contextualize_q_system_prompt = (
     "without the chat history. Do NOT answer the question, just "
     "reformulate it if needed and otherwise return it as is."
 )
-
 
 # Answer question prompt
 # This system prompt helps the AI understand that it should provide concise answers
