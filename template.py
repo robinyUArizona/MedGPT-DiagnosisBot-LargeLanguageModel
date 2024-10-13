@@ -10,7 +10,7 @@ list_of_files = [
     "src/helper.py",
     "src/prompt.py",
     ".env",
-    "requirements.txt"
+    "requirements.txt",
     "setup.py",
     "app.py",
     "research/trials.ipynb",
